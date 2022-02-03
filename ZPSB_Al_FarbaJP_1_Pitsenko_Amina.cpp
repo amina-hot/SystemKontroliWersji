@@ -5,18 +5,18 @@ using namespace std;
 
 const float farba = 1.25;
 
-int main(){
+int main(){ setlocale(LC_ALL, "");
 	float a, b, c, z;
 	float szerokosc = 0.9;
 	int wys_okna = 1, wys_drzwi = 2, x, y;
-			cout<<"Obliczanie liczby puszek farby do pomalowania scian pokoju\n";
-			cout<<"Podaj dlugosc pomieszczenia w metrach: ";
+			cout<<"Obliczanie liczby puszek farby do pomalowania œcian pokoju\n";
+			cout<<"Podaj d³ugoœæ pomieszczenia w metrach: ";
 				cin>>a;
-			cout<<"Podaj szerokosc pomieszczenia w metrach: ";
+			cout<<"Podaj szerokoœæ pomieszczenia w metrach: ";
 				cin>>b;
-			cout<<"Podaj wysokosc pomieszczenia w metrach: ";
+			cout<<"Podaj wysokoœæ pomieszczenia w metrach: ";
 				cin>>c;
-			cout<<"Wydajnosc farby mkw/l: ";
+			cout<<"Wydajnoœæ farby mkw/l: ";
 				cin>>z;	
 	int d=a*30/100; 
 	int d1=b*30/100;
@@ -59,7 +59,7 @@ int main(){
 			float litry_farby = do_pomalowania/z;
 			
 			int puszki = ceil(litry_farby/farba);	
-				cout<<"Do pomalowania pomieszczenia trzeba kupic "<<puszki<<" puszki farby";		
+				cout<<"Do pomalowania pomieszczenia trzeba kupiæ "<<puszki<<" puszki farby";		
 		}		
 return 0;
 }
