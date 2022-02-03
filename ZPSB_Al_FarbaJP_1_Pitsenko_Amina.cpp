@@ -2,6 +2,7 @@
 #include<cmath>
 using namespace std;
 
+//Bartosz tu by³
 
 const float farba = 1.25;
 
